@@ -5,6 +5,7 @@
 # Desc:        This assignment is to learn and demonstrate student understanding of some basic spark operations including Transformations and Actions.
 # Links:       * Spark:     https://spark.apache.org/docs/3.1.3/api/python/index.html
 #              * GIT:       https://github.com/richardhoehn/mtsu.csci.7400.assignment06
+# Exec:        spark-submit --master local ./AS_06.py
 
 from pyspark.sql import SparkSession
 import AS_06_Helper as Helper
